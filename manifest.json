@@ -7,7 +7,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://www.netflix.com/*"],
+      "matches": ["*://www.netflix.com/*", "*://www.netflix.com/watch/*"],
       "js": ["content.js"]
     }
   ],
